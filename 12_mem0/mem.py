@@ -35,7 +35,6 @@ config = {
 
 mem_client = Memory.from_config(config)
 
-
 user_query = input("> Kuch Bol BSDK: ")
 
 response = client.chat.completions.create(
@@ -66,4 +65,4 @@ mem_client.add(
     ]
 )
 
-print("Memory added successfully!")
+print("Memory added successfully!") 
